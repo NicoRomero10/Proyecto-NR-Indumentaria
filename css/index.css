@@ -9,7 +9,11 @@ html {
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    display: flex;
 }
 
 ul {
@@ -21,7 +25,7 @@ ul {
 }
 
 .menu__link {
-    
+    display: flex;
     color: whitesmoke;
     font-weight: bold;
     text-decoration: none;
@@ -30,7 +34,7 @@ ul {
     border: 3px whitesmoke solid;
     box-sizing: border-box;
     text-align: center;
-    display: flex;
+    
 }
 
 header {
@@ -199,8 +203,7 @@ footer {
 
     .gallery__picture:nth-child(1) {
         grid-column-start: span 4;
-        
-        }
+    }
     
     .gallery__picture:nth-child(3) {
     grid-column-start: span 1;
@@ -216,8 +219,6 @@ footer {
         
     .gallery__picture:nth-child(9) {
          grid-column-start: span 2;
-         
-         
     }
 }
     
