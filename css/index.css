@@ -1,0 +1,248 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul {
+    display: flex;
+    padding-top: 10px;
+    list-style-type: none;
+    align-items: baseline;
+    
+}
+
+.menu__link {
+    
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin:50px 20px 0px;
+    padding: 5px;
+    border: 3px black solid;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: radial-gradient(red 0%, rgb(216, 71, 71) 50%, yellow 100%);
+    /*background-color: #36382E ;*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-width: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+
+
+header .header__img {
+    max-width: 120px;
+}
+
+.menu .menu__link {
+    font-size: 1.6em;
+}
+
+.gallery-container {
+    width: 100%;
+    margin: 0%;
+    background-image: url(../img1/Continentes.jpg);
+    background-size: cover;
+}
+
+
+.box2 {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    padding-left: 60px;
+    justify-content: space-evenly;
+    width: 100%;
+    background-image: url(../img1/Continentes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    color: white;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+    background-color: lightblue;
+}
+
+
+
+.description__text {
+    text-align: center;
+    margin-left: 500px;
+    width: 375px;
+    font-size:medium;
+    color: black;
+}
+
+.description__titulo {
+    margin-left: 500px;
+    margin-right: 10px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.principal {
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+#sorteo {
+    background-image: url(../img1/bandera-argentina.jpg) ;
+    text-align: center;
+    font-weight: bold;
+    border-width: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+footer {
+    
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content:space-around ;
+}
+
+.redes, p, a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    }
+
+/*ESPACIO PARA GRIDS*/
+
+
+
+.gallery-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-auto-rows: auto;
+        padding: 0px;
+        grid-gap: 10px
+}
+
+/*gallery-container: el index*/
+
+.box2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    grid-auto-flow: dense;
+}
+
+/*box2: primera pagina de camisetas*/
+
+.gallery__picture {
+        position: relative;
+        
+}
+    
+.gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+}
+
+/*gallery__picture, gallery__img, fotos*/
+    
+
+/*COMIENZAN LOS MEDIA QUERY*/  
+
+
+
+/*@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction:row;
+    }
+}
+*/    
+    @media screen and (min-width: 768px) {
+    .gallery-container {
+    grid-template-columns: repeat(4, 1fr);
+    }
+
+    .gallery__picture:nth-child(1) {
+        grid-column-start: span 4;
+        transform: translate(40px, 50px);
+        }
+    
+    .gallery__picture:nth-child(3) {
+    grid-column-start: span 1;
+    }
+    
+     .gallery__picture:nth-child(4) {
+        grid-column-start: span 1;
+    }
+        
+    .gallery__picture:nth-child(5) {
+        grid-row-start: span 3;
+    }
+        
+    .gallery__picture:nth-child(9) {
+         grid-column-start: span 2;
+         transform: translate(-40px, -100px); /*sirve para mover la imagen*/
+         
+    }
+}
+    
+    @media screen and (min-width: 1024px) {
+        .gallery-container {
+            grid-template-columns: repeat(5, 1fr);
+            width: 90%;
+            margin: auto;
+        }
+    
+        .gallery__picture:nth-child(1) {
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+        }
+    
+        .gallery__picture:nth-child(4) {
+            grid-column-start: span 1;
+            grid-row-start: span 1;
+        }
+
+        .gallery__picture:nth-child(8) {
+            grid-column-start: span 2;
+            grid-row-start: span 2;
+        }
+        
+    }
+
+    
