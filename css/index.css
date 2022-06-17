@@ -10,9 +10,16 @@ html {
 
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
 }
 
 nav {
+    display: flex;
+    
+    text-decoration-color: blue;
+}
+
+.container {
     display: flex;
 }
 
@@ -25,8 +32,6 @@ ul {
 }
 
 .menu__link {
-    /*display: flex;*/
-    /*flex-direction: column;*/
     color: whitesmoke;
     font-weight: bold;
     text-decoration: none;
@@ -45,12 +50,12 @@ ul {
     transition: background-color 2s;    
 }
 
+
 header {
     display: flex;
     align-items: center;
     padding: 20px;
     background-image: linear-gradient(rgb(41, 100, 152) 0%, rgb(87, 112, 196) 50%, rgb(37, 60, 212) 100%);
-    flex-wrap: wrap;
     justify-content: space-around;
     border-width: 10px;
     border-color: silver;
@@ -59,7 +64,7 @@ header {
 
 
 header .header__img {
-    max-width: 120px;
+    max-width: 90px;
 }
 
 .menu .menu__link {
@@ -86,7 +91,7 @@ header .header__img {
     background-position: center;
     background-size: cover;
     text-align: left;
-    color: white;
+    color: black;
 }
 
 .box {
@@ -251,76 +256,3 @@ footer {
 
 
 /*gallery__picture, gallery__img, fotos*/
-    
-
-/*COMIENZAN LOS MEDIA QUERY*/  
-
-
-    @media screen and (min-width: 768px) {
-    .gallery-container {
-    grid-template-columns: repeat(4, 1fr);
-    }
-
-    .gallery__picture:nth-child(1) {
-        grid-column-start: span 4;
-        grid-template-rows: 1;
-        
-    }
-
-    .gallery__picture:nth-child(2) {
-        grid-column-start: span 2;
-        grid-template-rows: 1;
-        }
-    
-    .gallery__picture:nth-child(3) {
-    grid-column-start: span 2;
-    grid-template-rows: 1;
-    }
-    
-     .gallery__picture:nth-child(4) {
-        grid-column-start: span 1;
-        /*grid-template-rows: 1;*/
-    }
-        
-    .gallery__picture:nth-child(5) {
-        grid-row-start: span 1;
-    }
-
-    .gallery__picture:nth-child() {
-        grid-column-start: span 1;
-        grid-template-rows: 1;
-    }
-
-    .gallery__picture:nth-child(8) {
-        grid-column-start: span 2;
-        grid-template-rows: 1;
-    }
-        
-    .gallery__picture:nth-child(9) {
-         grid-column-start: span 2;
-    }
-}
-    
-    @media screen and (min-width: 1024px) {
-        .gallery-container {
-            grid-template-columns: repeat(4, 1fr);
-            width: 100%;
-            margin: auto;
-        }
-    
-        .gallery__picture:nth-child(1) {
-            grid-column-start: span 2;
-            grid-row-start: span 2;
-        }
-    
-        .gallery__picture:nth-child(4) {
-            grid-column-start: span 1;
-            grid-row-start: span 1;
-        }
-
-        .gallery__picture:nth-child(8) {
-            grid-column-start: span 2;
-            grid-row-start: span 2;
-        }
-        
-    }
