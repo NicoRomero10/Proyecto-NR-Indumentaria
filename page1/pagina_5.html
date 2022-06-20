@@ -5,50 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <header>
         <div class="logo">
             <img src="../img1/LOGO.jpg" width="100px" alt="NR Indumentaria">
-            <h1>Qatar 2022</h1>
         </div>
-        <nav>
-            <div>
-            <ul class="menu">
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_1.html">America</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_2.html">Europa</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_3.html">Africa</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_4.html">Oceania</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_5.html">Asia</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_6.html">Para Suscribirte</a>
-                </li>
+            <nav class="nav nav-pills flex-column flex-sm-row">
+                <a class="flex-sm-fill text-sm-center nav-link" href="pagina_1.html">America</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="pagina_2.html">Europa</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="pagina_3.html">Africa</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="pagina_4.html">Oceania</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="pagina_5.html">Asia</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="pagina_6.html">Suscribirse</a>
                 <li class="menu__item" >
                     <a class="menu__link" href="../index.html">INICIO</a>
                 </li>
-            </ul> 
-            </div>  
-        </nav>
-    </header>   
+              </nav> 
+    </header>  
         <main class="box2">
-            <div>
-                <section class="data">
-                    <form action="" method="get">
-                    <h2 class="data__picture">Seleccion Corea del Sur</h2>
-                        <img class="data__picture" src="../img1/CamisetaCorea del Sur.jpg" alt="Camiseta Corea del Sur" width="200px">
-                        <br>
-                        <article class="data__picture">
+            <section>
+                <form action="" method="get">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="../img1/CamisetaCorea del Sur.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Corea del Sur</h5>
+                        <p class="card-text">
+                            <article class="box2__picture">
                             <input type="radio" name="Opcion" value="Talle S" id="">
                             <label for="">Talle S</label>
                             <br>
@@ -62,82 +47,63 @@
                             <label for="">Talle XL</label>
                             <br>
                             <input type="submit"value="Enviar">
-                        </article>
-                    </form>
-                </section>
-            </div>
-        <div>
-            <section class="data">
-                <form action="" method="get">
-                <h2 class="data__picture">Seleccion Emiratos Arabes Unidos</h2>
-                    <img class="data__picture" src="../img1/Camiseta Emiratos Arabes.jpg" alt="Camiseta Emiratos Arabes Unidos" width="200px">
-                    <br>
-                    <article class="data__picture">
-                        <input type="radio" name="Opcion" value="Talle S" id="">
-                        <label for="">Talle S</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle M" id="">
-                        <label for="">Talle M</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle L" id="">
-                        <label for="">Talle L</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle XL" id="">
-                        <label for="">Talle XL</label>
-                        <br>
-                        <input type="submit"value="Enviar">
-                    </article>
-                </form>
+                            </article></p>
+                        <a href="../img1/CamisetaCorea del Sur.jpg" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
             </section>
-        </div>
-        <div>
-            <section class="data">
+            <section>
                 <form action="" method="get">
-                <h2 class="data__picture">Seleccion Iraq</h2>
-                    <img class="data__picture" src="../img1/Camiseta Iraq.jpg" alt="Camiseta Iraq" width="200px">
-                    <br>
-                    <article class="data__picture">
-                        <input type="radio" name="Opcion" value="Talle S" id="">
-                        <label for="">Talle S</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle M" id="">
-                        <label for="">Talle M</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle L" id="">
-                        <label for="">Talle L</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle XL" id="">
-                        <label for="">Talle XL</label>
-                        <br>
-                        <input type="submit"value="Enviar">
-                    </article>
-                </form>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="../img1/Camiseta Iraq.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Iraq</h5>
+                        <p class="card-text">
+                            <article class="box2__picture">
+                            <input type="radio" name="Opcion" value="Talle S" id="">
+                            <label for="">Talle S</label>
+                            <br>
+                            <input type="radio" name="Opcion" value="Talle M" id="">
+                            <label for="">Talle M</label>
+                            <br>
+                            <input type="radio" name="Opcion" value="Talle L" id="">
+                            <label for="">Talle L</label>
+                            <br>
+                            <input type="radio" name="Opcion" value="Talle XL" id="">
+                            <label for="">Talle XL</label>
+                            <br>
+                            <input type="submit"value="Enviar">
+                            </article></p>
+                        <a href="../img1/Camiseta Iraq.jpg" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
             </section>
-        </div>
-        <div>
-            <section class="data">
+            <section>
                 <form action="" method="get">
-                <h2 class="data__picture">Seleccion Iran</h2>
-                    <img class="data__picture" src="../img1/Camiseta Iran.jpg" alt="Camiseta Camerun" width="200px">
-                    <br>
-                    <article class="data__picture">
-                        <input type="radio" name="Opcion" value="Talle S" id="">
-                        <label for="">Talle S</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle M" id="">
-                        <label for="">Talle M</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle L" id="">
-                        <label for="">Talle L</label>
-                        <br>
-                        <input type="radio" name="Opcion" value="Talle XL" id="">
-                        <label for="">Talle XL</label>
-                        <br>
-                        <input type="submit"value="Enviar">
-                    </article>
-                </form>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="../img1/Camiseta Iran.jpg" alt="Card image cap">
+                        <div class="card-body">
+                        <h5 class="card-title">Iran</h5>
+                        <p class="card-text">
+                            <article class="box2__picture">
+                            <input type="radio" name="Opcion" value="Talle S" id="">
+                            <label for="">Talle S</label>
+                            <br>
+                            <input type="radio" name="Opcion" value="Talle M" id="">
+                            <label for="">Talle M</label>
+                            <br>
+                            <input type="radio" name="Opcion" value="Talle L" id="">
+                            <label for="">Talle L</label>
+                            <br>
+                            <input type="radio" name="Opcion" value="Talle XL" id="">
+                            <label for="">Talle XL</label>
+                            <br>
+                            <input type="submit"value="Enviar">
+                            </article></p>
+                        <a href="../img1/Camiseta Iran.jpg" class="btn btn-primary">Ver</a>
+                        </div>
+                    </div>
             </section>
-        </div>
         </main>
         <footer>
             <h4>Copyright - Todos los derechos reservados</h4>
@@ -149,5 +115,6 @@
                 <a href="https://www.facebook.com/nicolas.romero.5494/" target="_blank">Facebook</a>
             </section>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
