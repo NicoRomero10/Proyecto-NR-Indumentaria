@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
 </head>
@@ -12,8 +13,7 @@
     <header>
         <div class="logo">
             <img src="../img1/LOGO.jpg" width="100px" alt="NR Indumentaria">
-        </div>
-        
+        </div> 
         <nav class="nav nav-pills flex-column flex-sm-row">
             <a class="flex-sm-fill text-sm-center nav-link" href="pagina_1.html">America</a>
             <a class="flex-sm-fill text-sm-center nav-link" href="pagina_2.html">Europa</a>
@@ -25,11 +25,13 @@
                 <a class="menu__link" href="../index.html">INICIO</a>
             </li>
           </nav> 
-    </header>   
-        <main class="box2">
+    </header>
+    <main class="box2">
             <section>
             <form action="" method="get">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 18rem;" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                     <img class="card-img-top" src="../img1/Camiseta Arg.jpg" alt="Card image cap">
                     <div class="card-body">
                     <h5 class="card-title">Seleccion Argentina</h5>
@@ -55,7 +57,9 @@
             </section>
             <section>
                 <form action="" method="get">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <img class="card-img-top" src="../img1/Camiseta Brasil.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Seleccion Brasil</h5>
@@ -79,11 +83,13 @@
                         </div>
                       </div>
             </section>
-        
-
             <section>
-                <form action="" method="get">
-                    <div class="card" style="width: 18rem;">
+                <form action="" method="get" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="card" style="width: 18rem;" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <img class="card-img-top" src="../img1/Camiseta Ecuador.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Seleccion Ecuador</h5>
@@ -107,11 +113,11 @@
                         </div>
                       </div>
             </section>
-        
-
             <section>
                 <form action="" method="get">
-                    <div class="card" style="width: 18rem;">
+                    <div class="card" style="width: 18rem;" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <img class="card-img-top" src="../img1/Camiseta Uruguay.jpg" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">Seleccion Uruguay</h5>
@@ -133,10 +139,9 @@
                         </article></p>
                           <a href="../img1/Camiseta Uruguay.jpg" class="btn btn-primary">Ver</a>
                         </div>
-                      </div>
+                    </div>
             </section>
-        
-        </main>
+    </main>
         <footer>
             <h4>Copyright - Todos los derechos reservados</h4>
             <section class="redes">
@@ -148,37 +153,14 @@
             </section>
         </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 
 
-<!-- <nav>
-            <div>
-            <ul class="menu">
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_1.html">America</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_2.html">Europa</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_3.html">Africa</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_4.html">Oceania</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_5.html">Asia</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="pagina_6.html">Para Suscribirte</a>
-                </li>
-                
-                <li class="menu__item" >
-                    <a class="menu__link" href="../index.html">INICIO</a>
-                </li>
-            
-            </ul> 
-            </div>  
+<!-- 
 
             -->
