@@ -17,14 +17,6 @@ body {
     display: flex;
 }
 
-ul {
-    display: flex;
-    padding-top: 10px;
-    list-style-type: none;
-    align-items: baseline;
-    
-}
-
 .menu__link {
     color: whitesmoke;
     font-weight: bold;
@@ -114,12 +106,6 @@ header .header__img {
     text-align: center;
 }
 
-.principal {
-    font-size: 30px;
-    text-align: center;
-    font-style: italic;
-    color: white;
-}
 
 #sorteo {
     background-image: url(../img1/bandera-argentina.jpg) ;
