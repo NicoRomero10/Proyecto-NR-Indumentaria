@@ -1,0 +1,95 @@
+/*HEADER*/
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(rgb(41, 100, 152) 0%, rgb(87, 112, 196) 50%, rgb(37, 60, 212) 100%);
+    justify-content: space-around;
+    border-width: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+
+
+header .header__img {
+    max-width: 90px;
+}
+
+.menu__link {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    margin:50px 20px 0px;
+    padding: 5px;
+    border: 3px whitesmoke solid;
+    box-sizing: border-box;
+    text-align: center;
+    transition: background-color 2s;
+    
+}
+
+.menu__link:hover {
+    -webkit-text-fill-color: goldenrod;
+    background-color: black;
+    transition: background-color 2s;    
+}
+
+/*FOOTER*/ 
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+    background-color: lightblue;
+}
+
+.description__text {
+    text-align: center;
+    margin-left: 500px;
+    width: 375px;
+    font-size:medium;
+    color: black;
+}
+
+.description__titulo {
+    margin-left: 500px;
+    margin-right: 10px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+
+#sorteo {
+    background-image: url(../img1/bandera-argentina.jpg) ;
+    text-align: center;
+    font-weight: bold;
+    border-width: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+
+footer {
+    
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content:space-around ;
+}
+
+.redes, p, a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    }
+
