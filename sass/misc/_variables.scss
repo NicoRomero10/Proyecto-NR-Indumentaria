@@ -1,0 +1,42 @@
+/*COLORS*/
+$primary: blue;
+$secondary: white;
+$alternative: gold;
+$text-color: whitesmoke;
+$base: orange;
+
+/* Spacing */
+$spacing-large: 6rem;
+$spacing-medium: 4rem;
+$spacing-small: 2rem;
+$spacing-xsmall: 1rem;
+
+// MAPS
+
+$spacing: (
+    $spacing-large: 6rem,
+    $spacing-medium: 4rem,
+    $spacing-small: 2rem,
+    $spacing-xsmall: 1rem,
+);
+
+
+/* Font-Family  */
+$font-principal: 'Barlow', sans-serif;
+$font-title: 'Roboto Slab', serif;
+
+/* Font-Sizes */
+$text-large: 5.2em;
+$text-medium: 2.2em;
+$text-base: 1.6em;
+$text-small: 1.4em;
+
+/* box2 */
+
+$ancho: 100px;
+
+// EXTEND
+
+.border-img {
+    border: solid 2px black;
+}

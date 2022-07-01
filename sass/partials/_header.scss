@@ -1,17 +1,12 @@
+/*HEADER*/
+
 header {
-    display: flex;
-    align-items: center;
+    @include flex (center, space-around)
     padding: 20px;
     background-image: linear-gradient(rgb(41, 100, 152) 0%, rgb(87, 112, 196) 50%, rgb(37, 60, 212) 100%);
-    justify-content: space-around;
     border-width: 10px;
     border-color: silver;
     border-style: solid;
-}
-
-
-header .header__img {
-    max-width: 90px;
 }
 
 .menu__link {
@@ -24,11 +19,11 @@ header .header__img {
     box-sizing: border-box;
     text-align: center;
     transition: background-color 2s;
-    
-}
-
-.menu__link:hover {
+        &:menu__link:hover {
     -webkit-text-fill-color: goldenrod;
     background-color: black;
     transition: background-color 2s;    
+}
+
+
 }

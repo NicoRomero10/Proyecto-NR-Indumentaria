@@ -1,3 +1,5 @@
+/*FOOTER*/ 
+
 .box {
     display: flex;
     flex-direction: column;
@@ -46,10 +48,8 @@ footer {
     background-color: blue;
     display: flex;
     justify-content:space-around ;
+        &:redes, p, a {
+            text-align: center;
+            color: white;
+            text-decoration: none;}
 }
-
-.redes, p, a {
-    text-align: center;
-    color: white;
-    text-decoration: none;
-    }

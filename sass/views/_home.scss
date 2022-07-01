@@ -1,0 +1,109 @@
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+body {
+    color: $text-color
+}
+
+
+
+.gallery-container {
+    width: 100%;
+    margin: 0%;
+    background-image: url(../img1/Continentes.jpg);
+    background-size: cover;
+    
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+    padding: 0px;
+    grid-gap: map-get($map: $spacing, $key: $spacing-large)
+    
+    // $spacing-small;
+}
+
+.gallery__picture {
+    position: relative;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @extend .border-img;
+}
+
+.gallery__picture:nth-child(1):hover {
+transform: scale(1.05);
+}
+
+.gallery__picture:nth-child(1) {
+transition: transform .6s;
+}
+
+.gallery__picture:nth-child(2):hover {
+transform: scale(1.05);
+}
+
+.gallery__picture:nth-child(2) {
+transition: transform .6s;
+}
+
+.gallery__picture:nth-child(3):hover {
+transform: scale(1.05);
+}
+
+.gallery__picture:nth-child(3) {
+transition: transform .6s;
+}
+
+.gallery__picture:nth-child(4):hover {
+transform: scale(1.05);
+}
+
+.gallery__picture:nth-child(4) {
+transition: transform .6s;
+}
+
+.gallery__picture:nth-child(6):hover {
+transform: scale(1.05);
+}
+
+.gallery__picture:nth-child(6) {
+transition: transform .6s;
+}
+
+.gallery__picture:nth-child(7):hover {
+transform: scale(1.05);
+}
+
+.gallery__picture:nth-child(7) {
+transition: transform .6s;
+}
+
+.gallery__picture:nth-child(8):hover {
+transform: scale(1.05);
+}
+
+.gallery__picture:nth-child(8) {
+transition: transform .6s;
+height: 94%;
+}
+
+.gallery__picture:nth-child(9):hover {
+transform: scale(1.05);
+}
+
+.gallery__picture:nth-child(9) {
+transition: transform .6s;
+}
+
+
+/*gallery__picture, gallery__img, fotos*/
