@@ -8,18 +8,22 @@
     background-color: lightblue;
 }
 
+.description {
+    display: flex;
+}
+
 .description__text {
     text-align: center;
-    margin-left: 500px;
-    width: 375px;
+    margin-left: 50px;
+    width: 85%;
     font-size:medium;
     color: black;
 }
 
 .description__titulo {
-    margin-left: 500px;
-    margin-right: 10px;
-    margin-top: 0%;
+    // margin-left: 500px;
+    // margin-right: 10px;
+    // margin-top: 0%;
     text-align: center;
 }
 
