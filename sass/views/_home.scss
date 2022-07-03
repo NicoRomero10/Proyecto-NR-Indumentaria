@@ -21,12 +21,12 @@ body {
 
 .gallery-container {
     display: grid;
+    
     grid-template-columns: repeat(3, 1fr) ;
     grid-template-rows: repeat(3, 1fr);
     padding: 0px;
     grid-gap: map-get($map: $spacing, $key: $spacing-large)
     
-    // $spacing-small;
 }
 
 .gallery__picture {

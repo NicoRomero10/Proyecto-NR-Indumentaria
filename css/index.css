@@ -41,23 +41,6 @@ header .header__img {
     
 }
 
-
-
-/*.box2 {
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 200px;
-    padding-left: 60px;
-    justify-content: space-evenly;
-    width: 100%;
-    background-image: url(../img1/Continentes.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    text-align: left;
-    color: black;
-}
-*/
 .box {
     display: flex;
     flex-direction: column;
@@ -96,7 +79,7 @@ header .header__img {
 .formulario {
     text-align: center;
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 400px;
     margin-bottom: 10px;
 }
 

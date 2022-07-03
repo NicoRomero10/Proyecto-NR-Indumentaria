@@ -1,0 +1,41 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+    background-color: lightblue;
+}
+
+.description__text {
+    text-align: center;
+    margin-left: 500px;
+    width: 375px;
+    font-size:medium;
+    color: black;
+}
+
+.description__titulo {
+    margin-left: 500px;
+    margin-right: 10px;
+    margin-top: 0%;
+    text-align: center;
+}
+
+
+#sorteo {
+    background-image: url(../img1/bandera-argentina.jpg) ;
+    text-align: center;
+    font-weight: bold;
+    border-width: 10px;
+    border-color: silver;
+    border-style: solid;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-bottom: 10px;
+}
