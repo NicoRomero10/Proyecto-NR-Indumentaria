@@ -3,12 +3,14 @@
 
 
 footer {
-    
-    color: white;
-    background-color: blue;
     display: flex;
     justify-content:space-around ;
-        &:redes, p, a {
+    color: white;
+    background-color: blue;
+    width: 100%;
+    align-items: center;
+    
+        &.redes, p, a {
             text-align: center;
             color: white;
             text-decoration: none;}

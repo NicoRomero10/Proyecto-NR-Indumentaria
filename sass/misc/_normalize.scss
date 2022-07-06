@@ -10,8 +10,10 @@ html {
 
 body {
     
-    font-family: $font-principal;
+    font-family: $primary;
     font-size: 2rem;
+    background-image: url(../img1/Continentes.jpg);
+    background-size: cover;
 }
 
 header .header__img {
