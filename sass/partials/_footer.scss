@@ -1,12 +1,10 @@
 /*FOOTER*/ 
 
-
-
 footer {
     display: flex;
     justify-content:space-around ;
     color: white;
-    background-color: blue;
+    background-color: dodgerblue;
     width: 100%;
     align-items: center;
     
@@ -14,4 +12,24 @@ footer {
             text-align: center;
             color: white;
             text-decoration: none;}
+}
+
+// MEDIIA QUERYS
+
+@media (max-width: 320px) {
+    footer {
+        display: flex;
+        text-align: center;
+        font-size: x-small;
+        width: 100%;
+    }
+}
+
+@media (max-width: 413px) {
+    footer {
+        display: flex;
+        text-align: center;
+        font-size: x-small;
+        width: 100%;
+    }
 }

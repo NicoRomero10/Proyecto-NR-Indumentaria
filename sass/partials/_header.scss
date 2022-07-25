@@ -1,19 +1,15 @@
 /*HEADER*/
 
 header {
-    @include flex (center, space-around)
+    @include flex (center, space-around);
+    justify-content: space-around;
     padding: 20px;
-    background-image: linear-gradient(rgb(41, 100, 152) 0%, rgb(87, 112, 196) 50%, rgb(37, 60, 212) 100%);
-    border-width: 10px;
-    border-color: silver;
-    border-style: solid;
+    // background-image: linear-gradient(rgb(41, 100, 152) 0%, rgb(87, 112, 196) 50%, rgb(37, 60, 212) 100%);
+    background-color: dodgerblue;
 }
 
 .menu__link {
-    color: whitesmoke;
-    font-weight: bold;
-    text-decoration: none;
-    margin:50px 20px 0px;
+    display: flex;
     padding: 5px;
     border: 3px whitesmoke solid;
     box-sizing: border-box;
